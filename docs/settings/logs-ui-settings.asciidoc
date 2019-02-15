@@ -12,3 +12,7 @@ You do not need to configure any settings to use the Logs UI. It is enabled by d
 ==== General Logs UI Settings
 
 include::general-infra-logs-ui-settings.asciidoc[]
+
+Info:
+If your indices starts with different keyword, then modify the below line in kibana.yml 
+xpack.infra.sources.default.logAlias: 'logs-*'
